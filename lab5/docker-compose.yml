@@ -1,0 +1,43 @@
+services:
+  C1:
+    image: c1:latest
+    build:
+      context: ./c1
+      dockerfile: Dockerfile
+    container_name: C1
+    networks:
+      - sshnet
+
+  C2:
+    image: c2:latest
+    build:
+      context: ./c2
+      dockerfile: Dockerfile
+    container_name: C2
+    networks:
+      - sshnet
+
+  C3:
+    image: c3:latest
+    build:
+      context: ./c3
+      dockerfile: Dockerfile
+    container_name: C3
+    networks:
+      - sshnet
+
+  S1:
+    image: s1:latest
+    build:
+      context: ./s1
+      dockerfile: Dockerfile
+    container_name: S1
+    command: /usr/sbin/sshd -D
+    ports:
+      - "2222:22"
+    networks:
+      - sshnet
+
+networks:
+  sshnet:
+    driver: bridge
